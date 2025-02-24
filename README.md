@@ -20,12 +20,14 @@ Positional arguments:
 
 Optional arguments:
   -h, --help         shows help message and exits
-  -c, --row-count    The number of rows in the image file to process. If it does not cleanly divide the input image height,
-                     the image will be resized upwards until it does. [default: 1]
+  -c, --row-count    The number of rows in the image file to process. If it does not cleanly divide the
+                     input image height, the image will be resized upwards until it does. [default: 1]
   -r, --red RED      The amount of red target pixels have. Ranges from 0-255. [required]
   -g, --green GREEN  The amount of green target pixels have. Ranges from 0-255. [required]
   -b, --blue BLUE    The amount of blue target pixels have. Ranges from 0-255. [required]
-  -v, --variance     The amount that red, green, and blue in a pixel can deviate from the search color. [default: 8]
+  -v, --variance     The amount that red, green, and blue in a pixel can deviate from the search color.
+                     [default: 8]
   -s, --save         Save each row as individual images.
-  -d, --debug        When a pixel counts toward the search color, make it bright pink and save a copy of the base image.
+  -d, --debug        When a pixel counts toward the search color, make it bright pink and save a copy
+                     of the base image.
 ```
